@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Project-80 Guest List</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+    <center>
+        <h1>Guest List</h1>
+        <span>
+            <input type="text" id="input1" placeholder="Enter Name">
+            <button id="btn_submiit" onclick="submit()" type="button">Submit</button>
+        </span>
+        <hr>
+        <h4 id="names"></h4>
+        <hr>
+
+        <h1>Guest List</h1>
+        <button onclick="show_list()" id="btn_show_list">Show List</button>
+        <h4 id="guest_name_without_comma"></h4>
+        <hr>
+        <button id="btn_sort" onclick="sort_list()">Sort List</button>
+        <h4 id="sorted_guest_name"></h4>
+        <hr>
+        <span>
+            <input type="text" id="input2" placeholder="Search Name">
+            <button id="btn_search" onclick="search()" type="button">Search</button>
+            <h4 id="search_result"></h4>
+        </span>
+    </center>
+    </body>
+</html>
